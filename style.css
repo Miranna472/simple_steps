@@ -1,0 +1,90 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/88e83db431e7575eaab695eb/cvcvc.jpg");
+    background-size: cover;
+}
+
+.main-text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 500%;
+    font-family: "Arial", sans-serif;
+    margin: 0px;
+}
+
+.text-after-main {
+    color: white;
+    text-align: center;
+    font-family: "Arial", sans-serif
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    margin: 2px;
+    border: 1px solid blue;
+    background-color: white;
+    border: 4px solid #30d5c8;
+    border-radius: 25px;
+    width: 200px;
+    height: 300px;
+    z-index: 2;
+    position: relative;
+    padding: 3%;
+}
+
+/*.circle {
+    background: #30d5c8;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    z-index: 3;
+}
+*/
+.numbers {
+    width: 50px;
+    height: 50px;
+    background: #30d5c8;
+    border-radius: 50%;
+    color: white;
+    font-weight: 900;
+    position: relative;
+}
+
+.numbers span {
+    line-height: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text1 {
+    color: aqua;
+}
+
+.description {
+    font-style: oblique;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: white;
+    border: 2px solid #30d5c8;
+    padding: 15px 3px;
+    cursor: pointer;
+    color: aqua;
+    width: 100px;
+}
